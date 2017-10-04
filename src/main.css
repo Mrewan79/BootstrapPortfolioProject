@@ -7,6 +7,9 @@
 
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
+.lead, li {
+	text-align: center;
+	}
 
 /* Carousel base class */
 .carousel {
@@ -82,10 +85,11 @@ footer {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
+  height: 40px;
   background: #444;
   color: white;
   text-shadow: 1px 1px 1px black;
+  text-align: center;
   padding: 40px 0;
 }
 
